@@ -75,3 +75,17 @@ processResources {
         exclude 'mcmod.info'
     }
 }
+
+repositories{
+    maven {
+        name = 'AliyunMaven'
+        url = 'http://maven.aliyun.com/nexus/content/groups/public'
+    }
+}
+
+// 强制UTF-8构建
+compileJava.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
+
