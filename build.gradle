@@ -1,10 +1,14 @@
 buildscript {
     repositories {
 <<<<<<< HEAD
+<<<<<<< HEAD
         maven {
             // url = 'https://files.minecraftforge.net/maven'
             url = "http://lss233.littleservice.cn/repositories/minecraft" 
         }
+=======
+        maven { url = 'https://files.minecraftforge.net/maven' }
+>>>>>>> parent of 70e680b... bulit secound time finish
 =======
         maven { url = 'https://files.minecraftforge.net/maven' }
 >>>>>>> parent of 70e680b... bulit secound time finish
