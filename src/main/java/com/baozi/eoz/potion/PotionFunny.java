@@ -18,7 +18,7 @@ public class PotionFunny extends Potion {
     @Override
     public void renderInventoryEffect(int x, int y, PotionEffect e, Minecraft mc){
         mc.getTextureManager().bindTexture(TEXTURE);
-        mc.currentScreen.drawTexturedModalRect(x+6,y+7,0,0,36,36);
+        mc.currentScreen.drawTexturedModalRect(x+7,y+7,0,0,36,36);
     }
 
     @Override
