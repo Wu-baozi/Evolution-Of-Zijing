@@ -1,6 +1,6 @@
 # Evolution Of Zijing 1.12
 
-这是Minecraft 1.12.2版本的模组Evolution Of Zijing（[zi_jing](https://github.com/zi-jing)的进化）的代码仓库。
+这是Minecraft 1.12.2版本的模组Evolution Of Zijing（[zi-jing](https://github.com/zi-jing)的进化）的代码仓库。
 
 # 目录
 
@@ -12,7 +12,7 @@
 - [特别鸣谢](#特别鸣谢)
 
 # 模组介绍
-Evolution Of Zijing是一个迫害[zi_jing](https://github.com/zi-jing)的模组。
+Evolution Of Zijing是一个迫害[zi-jing](https://github.com/zi-jing)的模组。
 
 # 开发状态
 1. EOZ目前由Cuckoo Dev Studio维护，目前处于非常早期的版本；EOZ目前还没有发布公开的正式版本。如果你对这个模组有意见或建议，你可以直接联系我们或者[提出Issue](https://github.com/Wu-baozi/Evolution-Of-Zijing/issues)。
