@@ -12,7 +12,7 @@
 - [特别鸣谢](#特别鸣谢)
 
 # 模组介绍
-Evolution Of Zijing是一个迫害[zi-jing](https://github.com/zi-jing)的模组。
+[zi-jing](https://github.com/zi-jing)，是Cuckoo Dev Studio的一位成员，他成绩优越，品德高尚，乐于助人，和蔼可亲，每个人都很喜爱他，所以团队的两名成员决定编写一个模组，以此纪念zijing和感恩他的高尚道德情操，让每一个mc玩家都能感受到zijing的魅力。
 
 # 开发状态
 1. EOZ目前由Cuckoo Dev Studio维护，目前处于非常早期的版本；EOZ目前还没有发布公开的正式版本。如果你对这个模组有意见或建议，你可以直接联系我们或者[提出Issue](https://github.com/Wu-baozi/Evolution-Of-Zijing/issues)。
