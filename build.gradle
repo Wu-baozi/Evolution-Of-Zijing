@@ -10,27 +10,36 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
-
-version = "1.0"
+// 在这里更改版本
+version = '1.0.0-alpha'
 group = "com.baozi.eoz" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "eoz"
+
+// 添加前缀后缀
+String mcVersion = '1.12.2'
+version = mcVersion + '-' + version + getVersionAppendage()
 
 sourceCompatibility = targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
 compileJava {
     sourceCompatibility = targetCompatibility = '1.8'
 }
 
+static String getVersionAppendage() {
+    def proc = 'git rev-parse --short HEAD'.execute()
+    proc.waitFor()
+    return '-' + (proc.exitValue() ? 'NO-GIT' : proc.text.trim())
+}
+
 minecraft {
     version = "1.12.2-14.23.5.2847"
     runDir = "run"
-    
-    // the mappings can be changed at any time, and must be in the following format.
-    // snapshot_YYYYMMDD   snapshot are built nightly.
-    // stable_#            stables are built at the discretion of the MCP team.
-    // Use non-default mappings at your own risk. they may not always work.
-    // simply re-run your setup task after changing the mappings to update your workspace.
+
     mappings = "snapshot_20171003"
     // makeObfSourceJar = false // an Srg named sources jar is made by default. uncomment this to disable.
+
+    // 替换EOZ版本号
+    replaceIn 'EOZ.java'
+    replace '@EOZVERSION@', project.version
 }
 
 dependencies {
