@@ -1,6 +1,6 @@
 # Evolution Of Zijing 1.12
 
-这是Minecraft 1.12.2版本的模组Evolution Of Zijing（[zi-jing](https://github.com/zi-jing)的进化）的代码仓库。
+这是Minecraft 1.12.2版本的模组Evolution Of Zijing（[zi-jing](https://github.com/zi-jing)の进化）的代码仓库。
 
 # 目录
 
