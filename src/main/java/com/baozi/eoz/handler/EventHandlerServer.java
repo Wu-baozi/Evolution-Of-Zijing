@@ -1,5 +1,6 @@
 package com.baozi.eoz.handler;
 
+import com.baozi.eoz.EOZ;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.text.TextComponentString;
@@ -9,8 +10,8 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-@Mod.EventBusSubscriber
-public class EventHandler {
+@Mod.EventBusSubscriber(modid = EOZ.MODID)
+public class EventHandlerServer {
     @SubscribeEvent
     public static void onPlayerJoin(EntityJoinWorldEvent event)
     {
