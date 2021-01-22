@@ -7,7 +7,7 @@
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["Mo_Ink"],
+  "authorList": ["Mo_Ink"，“Baozi”],
   "credits": "Mojang, Forge Development Team and Cuckoo Mod Development Team",
   "logoFile": "",
   "screenshots": [],
