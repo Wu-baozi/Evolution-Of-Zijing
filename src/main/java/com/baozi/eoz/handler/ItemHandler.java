@@ -1,6 +1,7 @@
 package com.baozi.eoz.handler;
 
 import com.baozi.eoz.item.ItemFunnyApple;
+import com.baozi.eoz.item.ItemZijing;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -20,16 +21,19 @@ public class ItemHandler {
     public static final List<Item> ITEM_REGISTRY = new ArrayList<>();
 
     public static final ItemFunnyApple Item_Funny_Apple = new ItemFunnyApple();
+    public static final ItemZijing Item_Zijing = new ItemZijing();
 
     @SubscribeEvent
     public static void onRegister(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
         registry.register(Item_Funny_Apple);
+        registry.register(Item_Zijing);
     }
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
     public static void onModelRegistry(ModelRegistryEvent event){
         ModelLoader.setCustomModelResourceLocation(Item_Funny_Apple,0,new ModelResourceLocation(Item_Funny_Apple.getRegistryName(),"inventory"));
+        ModelLoader.setCustomModelResourceLocation(Item_Zijing,0,new ModelResourceLocation(Item_Zijing.getRegistryName(),"inventory"));
     }
 }
