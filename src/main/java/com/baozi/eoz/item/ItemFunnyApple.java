@@ -1,6 +1,7 @@
 package com.baozi.eoz.item;
 
 import com.baozi.eoz.EOZ;
+import com.baozi.eoz.creativeTAB.creativeTAB.TABEOZ;
 import com.baozi.eoz.handler.PotionHandler;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
@@ -17,6 +18,7 @@ public class ItemFunnyApple extends ItemFood {
         this.setUnlocalizedName(EOZ.MODID+"."+name);
         this.setMaxStackSize(64);
         this.setAlwaysEdible();
+        this.setCreativeTab(TABEOZ.Tab_EOZ);
     }
 
     @Override
