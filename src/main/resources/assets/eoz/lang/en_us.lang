@@ -1,6 +1,9 @@
 
 item.eoz.funny_apple.name=Funny Apple
-item.eoz.zi_jing.name=zi-jing
+item.eoz.zijing.name=zijing_233
 effect.eoz.funny=Funny
 itemGroup.eoz.tab=Evolution Of Zijing
 death.attack.eoz.funnyDied=%1$s died by funny
+
+entity.eoz.entity_zijing.name=zijing_233
+entity.eoz.entity_moink.name=Mo_Ink

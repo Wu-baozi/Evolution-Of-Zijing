@@ -6,7 +6,7 @@ import net.minecraft.item.Item;
 
 public class ItemZijing extends Item {
     public ItemZijing() {
-        String name = "zi_jing";
+        String name = "zijing";
         this.setRegistryName(name);
         this.setUnlocalizedName(EOZ.MODID + "." + name);
         this.setMaxStackSize(1);

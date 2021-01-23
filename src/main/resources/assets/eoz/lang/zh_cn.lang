@@ -1,6 +1,9 @@
 ﻿
 item.eoz.funny_apple.name=滑稽果
-item.eoz.zi_jing.name=解子敬
+item.eoz.zijing.name=解子敬
 itemGroup.eoz.tab=Zijingの进化
 death.attack.eoz.funnyDied=%1$s 太滑稽以至于他去世了
 effect.eoz.funny=滑稽
+
+entity.eoz.entity_zijing.name=zijing_233
+entity.eoz.entity_moink.name=Mo_Ink

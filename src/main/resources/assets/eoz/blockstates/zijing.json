@@ -3,7 +3,7 @@
   "defaults": {
     "model": "minecraft:builtin/generated",
     "textures": {
-      "layer0": "eoz:items/zi_jing"
+      "layer0": "eoz:items/zijing"
     }
   },
   "variants": {

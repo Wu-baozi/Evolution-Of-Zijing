@@ -13,12 +13,8 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import net.minecraftforge.registries.IForgeRegistry;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Mod.EventBusSubscriber
 public class ItemHandler {
-    public static final List<Item> ITEM_REGISTRY = new ArrayList<>();
 
     public static final ItemFunnyApple ITEM_FUNNY_APPLE = new ItemFunnyApple();
     public static final ItemZijing ITEM_ZIJING = new ItemZijing();
