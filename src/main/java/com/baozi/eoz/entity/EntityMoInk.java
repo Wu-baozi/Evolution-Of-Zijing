@@ -1,10 +1,12 @@
 package com.baozi.eoz.entity;
 
+import com.baozi.eoz.EOZTab;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemMonsterPlacer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.world.World;
+import com.baozi.eoz.EOZTab;
 
 public class EntityMoInk extends EntityNPCBase {
     public EntityMoInk(World worldIn) {

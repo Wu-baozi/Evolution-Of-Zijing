@@ -1,4 +1,4 @@
-# Evolution Of Zijing 1.12
+﻿# Evolution Of Zijing 1.12
 
 这是Minecraft 1.12.2版本的模组Evolution Of Zijing（[zi-jing](https://github.com/zi-jing)の进化）的代码仓库。
 
@@ -45,3 +45,5 @@ gradlew build
 1. 成绩优越、品德高尚、乐于助人、和蔼可亲、人见人爱の[zi_jing](https://github.com/zi-jing)
 2. 此Mod名字的由来[Evolution-Of-Knowledge](https://github.com/gonggongjohn/Evolution-Of-Knowledge)
 3. 可能会作为依赖库的[CuckooLib](https://github.com/zi-jing/CuckooLib)
+# 备注
+eoz现以停更请前往新模组eochttps://github.com/Mo-Ink/Evolution-Of-Cuckoo
