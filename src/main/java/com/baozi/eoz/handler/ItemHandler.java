@@ -20,20 +20,20 @@ import java.util.List;
 public class ItemHandler {
     public static final List<Item> ITEM_REGISTRY = new ArrayList<>();
 
-    public static final ItemFunnyApple Item_Funny_Apple = new ItemFunnyApple();
-    public static final ItemZijing Item_Zijing = new ItemZijing();
+    public static final ItemFunnyApple ITEM_FUNNY_APPLE = new ItemFunnyApple();
+    public static final ItemZijing ITEM_ZIJING = new ItemZijing();
 
     @SubscribeEvent
     public static void onRegister(RegistryEvent.Register<Item> event) {
         IForgeRegistry<Item> registry = event.getRegistry();
-        registry.register(Item_Funny_Apple);
-        registry.register(Item_Zijing);
+        registry.register(ITEM_FUNNY_APPLE);
+        registry.register(ITEM_ZIJING);
     }
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
-    public static void onModelRegistry(ModelRegistryEvent event){
-        ModelLoader.setCustomModelResourceLocation(Item_Funny_Apple,0,new ModelResourceLocation(Item_Funny_Apple.getRegistryName(),"inventory"));
-        ModelLoader.setCustomModelResourceLocation(Item_Zijing,0,new ModelResourceLocation(Item_Zijing.getRegistryName(),"inventory"));
+    public static void onModelRegistry(ModelRegistryEvent event) {
+        ModelLoader.setCustomModelResourceLocation(ITEM_FUNNY_APPLE, 0, new ModelResourceLocation(ITEM_FUNNY_APPLE.getRegistryName(), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(ITEM_ZIJING, 0, new ModelResourceLocation(ITEM_ZIJING.getRegistryName(), "inventory"));
     }
 }

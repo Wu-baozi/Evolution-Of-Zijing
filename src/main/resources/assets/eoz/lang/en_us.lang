@@ -1,5 +1,5 @@
 item.eoz.funny_apple.name=Funny Apple
 effect.eoz.funny=Funny
 item.eoz.zi_jing.name=zi_jing
-itemGroup.EOZ=Evolution-of-Zijing
-
+itemGroup.EOZ=Evolution Of Zijing
+death.attack.funnyDied=%1$s died by funny

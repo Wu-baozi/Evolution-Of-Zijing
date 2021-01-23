@@ -7,7 +7,6 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemFood;
 import net.minecraft.item.*;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.potion.PotionHealth;
 import net.minecraft.world.World;
 
 public class ItemFunnyApple extends ItemFood {
@@ -32,7 +31,7 @@ public class ItemFunnyApple extends ItemFood {
                 amplifier = 1;
             else
                 amplifier = 0;
-            player.addPotionEffect(new PotionEffect(PotionHandler.Potion_Funny,300,amplifier));
+            player.addPotionEffect(new PotionEffect(PotionHandler.POTION_FUNNY,300,amplifier));
         }
     }
 }

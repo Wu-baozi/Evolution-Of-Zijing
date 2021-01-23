@@ -2,7 +2,7 @@ package com.baozi.eoz.item;
 
 import com.baozi.eoz.EOZ;
 import com.baozi.eoz.creativeTAB.creativeTAB.TABEOZ;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
 
 public class ItemZijing extends Item {
     public ItemZijing() {
