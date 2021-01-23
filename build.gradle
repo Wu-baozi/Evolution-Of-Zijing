@@ -12,7 +12,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 // 在这里更改版本
 version = '1.0.0-alpha'
-group = "com.baozi.eoz" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+group = "io.github.Wu-baozi.eoz" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "eoz"
 
 // 添加前缀后缀
