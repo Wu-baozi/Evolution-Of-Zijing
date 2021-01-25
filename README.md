@@ -15,7 +15,7 @@
 [解子敬](https://github.com/zi-jing)，是**Cuckoo Dev Team**的一位成员，他**成绩优越、品德高尚、乐于助人、和蔼可亲、人见人爱**，为团队做出了**莫大贡献**，所以团队的两名成员（ [Mo_Ink](https://github.com/Mo-Ink) 和 [Baozi](https://github.com/Wu-baozi) ）决定编写一个模组，以此**纪念他和感恩他的高尚道德情操**，让每一个Minecraft玩家都能感受到[zi-jing](https://github.com/zi-jing)的**魅力**。
 
 # 开发状态
-1. EOZ目前由**Cuckoo Dev Team**维护，目前处于非常早期的版本；EOZ目前还没有发布公开的正式版本。如果你对这个模组有意见或建议，你可以直接联系我们或者[提出Issue](https://github.com/Wu-baozi/Evolution-Of-Zijing/issues)。
+EOZ目前由**Cuckoo Dev Team**维护，目前处于非常早期的版本；EOZ目前还没有发布公开的正式版本。如果你对这个模组有意见或建议，你可以直接联系我们或者[提出Issue](https://github.com/Wu-baozi/Evolution-Of-Zijing/issues)。
 
 # 模组基本信息
 * Minecraft版本: 1.12.2
@@ -46,4 +46,4 @@ gradlew build
 2. 此Mod名字的由来[Evolution-Of-Knowledge](https://github.com/gonggongjohn/Evolution-Of-Knowledge)
 3. 可能会作为依赖库的[CuckooLib](https://github.com/zi-jing/CuckooLib)
 # 备注
-eoz现以停更请前往新模组eochttps://github.com/Mo-Ink/Evolution-Of-Cuckoo
+Evolution Of Zijing现已迁移至新项目[Evolution-Of-Cuckoo](https://github.com/Mo-Ink/Evolution-Of-Cuckoo)
